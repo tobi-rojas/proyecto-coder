@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.titulo{
+    color: white;
+    font-size: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+ul.navegacion{
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    width: 35%;
+    justify-content: space-evenly;
+    align-items:center;
+}
+.contenedor_logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.imagenes{
+    width: 300px;
+    height: 300px;
+}
+.icono{
+    width: 40px;
+    height: 40px;
+}
+header{
+    display: flex;
+    background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80);
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+div{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+}
+nav{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.galeria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.galeria img{
+    width: 25%;
+    margin: 5px;
+}
+main{
+    background-image: url(https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MTB8fHxlbnwwfHx8fA%3D%3D&w=1000&q=80)
+}
